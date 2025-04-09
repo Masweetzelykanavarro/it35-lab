@@ -19,6 +19,8 @@ import { Redirect, Route } from 'react-router';
 import Home from './Home';
 import About from './About';
 import Details from './Details';
+import { supabase } from '../utils/supabaseClient';
+import { useState } from 'react';
 
   const Menu: React.FC = () => {
     const path = [
